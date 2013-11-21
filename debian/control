@@ -1,0 +1,12 @@
+Source: ros-hydro-roslisp-repl
+Section: misc
+Priority: extra
+Maintainer: Lorenz Moesenlechner <moesenle@in.tum.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-roslisp-repl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-roslisp, rosemacs-el, sbcl, slime
+Description: This package provides a script that launches Emacs with Slime (the Superior Lisp Interaction Mode) ready for Lisp development and roslisp.
